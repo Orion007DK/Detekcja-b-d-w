@@ -1,0 +1,143 @@
+.App {
+
+}
+
+.App-logo {
+    height: 10vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+body {
+    background: #f8f8f8;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+main {
+    padding: 10px 0;
+    width: 1024px;
+    margin: auto;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.radios {
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"] + label {
+    cursor: pointer;
+    padding: 6px 10px;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+input[type="radio"]:checked + label {
+    color: #fff;
+    background: #4141de;
+}
+
+input[type="text"], input[type="number"], textarea {
+    padding: 4px 8px;
+    font-size: 16px;
+}
+
+input[type="number"] {
+    width: 48px;
+}
+
+button, input[type="submit"] {
+    padding: 8px 12px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background: #4444ac;
+    border: 1px solid rgb(146, 148, 248);
+    border-radius: 4px;
+}
+
+button:hover {
+    box-shadow: 1px 1px 5px 1px rgba(146, 148, 248, 0.4);
+}
+
+.bg-red {
+    background: #e81d1d !important;
+    border: 1px solid rgb(248, 146, 146) !important;
+}
+.bg-red:hover {
+    box-shadow: 1px 1px 5px 1px rgba(248, 146, 146, 0.4) !important;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.black {
+    color: black;
+}
+
+.orange {
+    color: orange;
+}
+
+table {
+    width: 500px;
+    margin: auto;
+    border: 0;
+}
+
+td {
+    border: 1px solid gray;
+}
+
+.label {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.output {
+    text-align: center;
+    background: #ffffdb;
+    padding: 10px;
+    border: 1px solid yellow;
+    border-radius: 4px;
+}
+
+.clickable {
+    cursor: pointer;
+}
